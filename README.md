@@ -1,8 +1,8 @@
 # DiscreteMaths Programming Ass
-#Information:\n
-Name: Mai Truong Son\n
-ID: 20183620\n
-Language: Java\n
+#Information:
+- Name: Mai Truong Son
+- ID: 20183620
+- Language: Java
 
 *1. TreeCompressing
 - Input (from key board): edges
