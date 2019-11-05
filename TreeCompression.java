@@ -1,5 +1,3 @@
-package com.company;
-
 import java.util.Scanner;
 
 public class TreeCompression {
@@ -26,16 +24,16 @@ public class TreeCompression {
         System.out.println("So canh: ");
         int links = sc.nextInt();
         int point = links + 1;
-        int[] deg = new int[point];                        //array chua degree cua moi dinh
-        for (int i = 0; i < point; i++) {                  //khoi tao cac dinh deu bac 0
+        int[] deg = new int[point];                              //array chua degree cua moi dinh
+        for (int i = 0; i < point; i++) {                        //khoi tao cac dinh deu bac 0
             deg[i] = 0;
         }
-        int[][] link = new int[links][2];                  //array cac canh
-        for (int i = 0; i < links; i++) {                  //nhap cac canh
+        int[][] link = new int[links][2];                       //array cac canh
+        for (int i = 0; i < links; i++) {                       //nhap cac canh
             System.out.println("Canh thu " + (i + 1) + ": ");
             link[i][0] = sc.nextInt();
             link[i][1] = sc.nextInt();
-            deg[link[i][0]]++;                             //dem so bac moi dinh them vao
+            deg[link[i][0]]++;                                  //dem so bac moi dinh them vao
             deg[link[i][1]]++;
         }
 
